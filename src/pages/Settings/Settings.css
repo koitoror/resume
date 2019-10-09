@@ -1,0 +1,12 @@
+.settings {
+  margin-top: 10px;
+}
+
+.settings .form-control {
+  box-shadow: 0 0px 2px 0 rgba(255, 255, 255, 0.8), 0 0px 1px 1px rgba(101, 90, 90, 0.8);
+  color: #000;
+}
+
+.settings .form-control::-webkit-input-placeholder {
+  color: grey;
+}

@@ -1,0 +1,14 @@
+.login {
+  margin-top: 200px;
+}
+
+.btn-outline-info {
+  color: #0bceaf;
+  border-color: #0bceaf;
+}
+
+.btn-outline-info:hover {
+  color: #fff;
+  background-color: #0bceaf;;
+  border-color: #0bceaf;;
+}

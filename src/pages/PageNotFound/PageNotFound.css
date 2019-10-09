@@ -1,0 +1,16 @@
+.NotFoundPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: white;
+}
+
+.NotFoundPage .action {
+  margin-top: 20px;
+}
+
+.NotFoundPage h1 {
+  font-size: 10em;
+}
