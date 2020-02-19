@@ -4,7 +4,7 @@ const SocialIcons = props => (
   <ul {...props}>
     <li>
       <a
-        href="https://facebook.com/koitoror/"
+        href="https://facebook.com/engineer.koitoror"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -31,7 +31,7 @@ const SocialIcons = props => (
     </li>
     <li>
       <a
-        href="https://stackoverflow.com/users/12165525/daniel-kamar/"
+        href="https://stackoverflow.com/users/story/12165525"
         target="_blank"
         rel="noopener noreferrer"
       >

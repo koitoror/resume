@@ -2,6 +2,9 @@ import React from 'react';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import firebase from '../helper/firebase';
+// import { sendMail } from '../components';
+// eslint-disable-next-line prefer-destructuring
+const sendMail = require('../components').sendMail;
 
 
 class ContactForm extends React.Component {
@@ -16,12 +19,18 @@ class ContactForm extends React.Component {
   handleSubmit = (e) => {
     e.preventDefault();
 
-    const sendMail = firebase.functions().httpsCallable('sendMail');
+    // const sendMail = firebase.functions().httpsCallable('sendMail');
     const contactUs = firebase.database().ref().child('contactUs');
     contactUs.push(this.state).then(() => {
       this.setState({ ...this.initialState });
       toast.success('Message Sent');
-      sendMail().then(res => console.log(res));
+      // eslint-disable-next-line no-console
+      // sendMail().then(res => console.log(res.data));
+      sendMail()
+        // eslint-disable-next-line no-console
+        .then(res => console.log(`Message sent: ${res.message}`))
+        // eslint-disable-next-line no-console
+        .catch(error => console.log(error));
     });
   };
 

@@ -2,7 +2,7 @@
 
 ## Getting started
 
-You can view a live demo over at https://https://koitoror-70cbe.web.app/ or https://koitoror.ml
+You can view a live demo over at https://koitoror-70cbe.web.app/ or http://koitoror.ml
 
 To get the frontend running locally:
 
