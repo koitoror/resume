@@ -66,7 +66,7 @@ export default {
     pic:
       'https://avatars0.githubusercontent.com/u/35098691?s=460&v=4',
     address: 'Nairobi, Kenya',
-    email: 'daniel.kamar@andela.com',
+    email: 'koitoror@gmail.com',
     phone: '+254 721 102111',
     title: 'Software Engineer',
     name: 'Daniel Kamar',
